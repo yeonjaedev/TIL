@@ -1,0 +1,39 @@
+# spring boot project wildfly에 배포
+
+참고 링크: http://www.mastertheboss.com/jboss-frameworks/spring/spring-boot-hello-world-on-wildfly
+
+1.  spring boot project 생성
+
+- dependency: spring web 추가
+
+2. application.java(main 함수 있는 파일) 수정
+
+- @RestController 부분 추가
+
+3. localhost:8080/hello/{name} 로 돌아가는지 확인
+
+4. application.java(main 함수 있는 파일) 수정
+
+- SpringBootServletInitializer extends하기
+
+- SpringApplicationBuilder override하기
+
+5. pom.xml 수정
+
+- <packaging>war</packaging> 추가
+
+- dependency 추가
+
+spring-boot-starter-web에 exclusion 추가 
+javax.servlet 추가
+* build에 finalName을 지정하는 경우 해당 이름으로 war 파일이 생성된다. (좀 더 편함)
+
+6. 프로젝트 컴파일
+
+- mvn clean package
+
+7.  target 폴더안에 war 파일 생성 확인후
+
+- cp target/{war파일이름}.war {Wildfly home 경로}/standalone/deployments
+
+8. ./standalone.sh 실행 후 localhost:8080/{war파일 이름}/hello/{name} 으로 구동 확인
