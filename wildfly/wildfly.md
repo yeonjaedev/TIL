@@ -1,3 +1,4 @@
+# virtual box를 활용한 가상환경 centos7설정 및 wildfly 설치+
 # wildfly 설치 및 설정
 
 * 가상 환경 스펙
