@@ -34,11 +34,11 @@ git branch feature_branch
 git push
 ```
 
-‘develop’ 브랜치에서 새로운 기능에 대한 feature 브랜치를 분기한다.
-새로운 기능에 대한 작업 수행한다.
-작업이 끝나면 ‘develop’ 브랜치로 병합(merge)한다.
-더 이상 필요하지 않은 feature 브랜치는 삭제한다.
-새로운 기능에 대한 ‘feature’ 브랜치를 중앙 원격 저장소에 올린다.(push)
+* 1.‘develop’ 브랜치에서 새로운 기능에 대한 feature 브랜치를 분기한다.
+* 2.새로운 기능에 대한 작업 수행한다.
+* 3.작업이 끝나면 ‘develop’ 브랜치로 병합(merge)한다.
+* 4.더 이상 필요하지 않은 feature 브랜치는 삭제한다.
+* 5.새로운 기능에 대한 ‘feature’ 브랜치를 중앙 원격 저장소에 올린다.(push)
 https://gmlwjd9405.github.io/2018/05/11/types-of-git-branch.html
 ```
 // feature 브랜치(feature/login)를 'develop' 브랜치('master' 브랜치에서 따는 것이 아니다!)에서 분기
