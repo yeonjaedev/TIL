@@ -4,7 +4,7 @@ Today I Learned
 
 ## Frontend
 
--   [브라우저 주소창에 www.google.com 입력하면 어떤 일이 생기나요? ( 브라우저 동작방식, 렌더링 과정 )](https://github.com/yeonjaedev/TIL/blob/master/javascript/browser_rendering.md)
+-   [브라우저 주소창에 www.google.com 입력하면 어떤 일이 생기나요? ( 브라우저 동작방식, 렌더링 과정 )](https://github.com/yeonjaedev/TIL/blob/master/Frontend/browser_rendering.md)
 
 ## javascript
 
